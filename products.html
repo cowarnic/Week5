@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 200px;
+          padding: 5px;
+          height: 200px;
+        }
+        
+        
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+
+        </style>
+</head>
+<body>
+    <header>Products</header>
+    <nav>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+
+    </nav>
+    <div class="wrapper">
+        <div class="articles">
+            <article>
+                <div class="row">
+                    <div class="column">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Killerwhales_jumping.jpg" alt="whale" style="width: 100%">
+                    </div>
+                    <div class="column">
+                      <img src="https://www.thesprucepets.com/thmb/3-kxAtZmAchP9y7PVFH2h1dKxqY=/941x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/adorable-white-pomeranian-puppy-spitz-921029690-5c8be25d46e0fb000172effe.jpg" alt="puppy" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg" alt="Mountains" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="https://www.petbarn.com.au/petspot/app/uploads/2019/01/kitten-000017380158_Smaller.jpg" alt="kitten" style="width:100%">
+                      </div>
+                  </div>
+                
+
+            </article>
+            
+        </div>
+        
+    </div>
+</body>
+</html>
